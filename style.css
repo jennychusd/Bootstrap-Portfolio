@@ -97,6 +97,15 @@ a:hover {
 	background-color: #4aaaa5;
 	color:#ffffff;
 	text-align:center;
+	animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes colorChange {
+    from {background-color: #4aaaae;}
+    to {background-color: #ff405e;}
 }
 
 .projectsLeft {
